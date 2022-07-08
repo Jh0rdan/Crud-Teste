@@ -1,0 +1,167 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  form {
+      width: 400px;
+      height: 700px;
+      border-radius: 0.8rem;
+      margin-right: 1rem;
+      display: block;
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      .content {
+          margin: 20px 0;
+      }
+      h1{
+        
+        color: gray;
+      }
+      input,
+      textarea {
+          width: 90%;
+          padding: 1rem;
+          margin: 1rem 0;
+          border: none;
+          box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+          border-radius: 0.3rem;
+          margin-top: 35px;
+          height: 60px;
+      }
+     
+      
+      button {
+        margin-top: 30px;
+          padding: 0.8rem;
+          width: 40%;
+          height: 60px;
+          background: rgb(255, 97, 97);
+          color: white;
+          font-size: 30px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          border: none;
+          border-radius: 0.5rem;
+          cursor: pointer;
+          transition: filter 0.2s;
+          &:hover {
+              filter: brightness(0.9);
+          }
+      }
+  }
+
+  .caixacontatos::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+    
+  }
+
+  .caixacontatos::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 131, 131, 0.89);
+    border-radius: 10px;
+    
+  }
+  .caixacontatos {
+      width: 800px;
+      height: 700px;
+      border-radius: 0.8rem;
+      align-items: center;
+      text-align: center;
+      background-color: white;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      overflow: auto;
+      scrollbar-width: 6px;
+      scrollbar-color: gray;
+      
+      h1 {
+          color: gray;
+      }
+      input {
+          border: none;
+          box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+          border-radius: 0.3rem;
+          width: 90%;
+          padding: 1rem;
+      }
+      .indCartao {
+        box-shadow: inset 1px 1px 12px rgba(0, 0, 0, 0.2);
+          width: 90%;
+          border-radius: 0.8rem;
+          background-color: rgb(255, 108, 108);
+          margin: 0 auto;
+          margin-top: 10px;
+          overflow: hidden;
+          margin-bottom: 20px;
+          }
+          .dados {
+            text-align: center;
+             
+              .contato{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              }
+          }
+      }
+      .titulo {
+        color: white;
+        border-radius: 10px;
+          font-size: 2rem;
+          text-align: center;
+          font-weight: bold;
+          margin-top: 45px;
+          margin-left: 30px;
+          padding: 10px 30px;
+          
+      }
+      .box{
+        color: white;
+        border-radius: 10px;
+        margin-right: 30px;
+        margin-top: 20px;
+
+       
+      }
+      
+      
+      .tit{
+       
+          font-size: 1.2rem;
+          text-align: left;
+          font-weight: bold;
+          margin: 10px;
+          padding: 0px 30px;
+          
+         
+      }
+      .boxtitulo {
+          display: block;
+          justify-content: space-between;
+          align-items: center;
+          .contato{
+            margin: 10px;
+          }
+          .but {
+                background-color: rgb(255, 108, 108);
+                border-radius: 10px;
+              color: white;
+              
+              margin-left: 5px;
+              margin-right: 5px;
+              margin-bottom: 5px;
+              padding: 6px 24px;
+              border: 1px solid white;
+              cursor: pointer;
+            &:hover{
+                background-color: white;
+                color: rgb(255, 108, 108);
+            }
+                  
+              }
+           
+          }
+      }
+  
